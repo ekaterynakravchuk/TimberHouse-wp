@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    padding: 160px 210px;
+}
+.header__inner {
+    text-align: center;
+    width: 530px;
+    height: 530px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 10px solid #f4d4a5;
+    padding-top: 13px;
+    padding-bottom: 160px;
+}
+.header__name {
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #bf4200;
+    margin-bottom: 20px;
+}
+.phone {
+    display: inline-block;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+.header__title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    color: #1fad26;
+}
+.header__sale {
+    margin-top: 40px;
+}
+.container {
+    max-width: 1030px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.main {
+    text-align: center;
+    padding-top: 75px;
+}
+.main__title {
+    font-size: 41px;
+    color: #d07a2d;
+    padding-bottom: 65px;
+}
+.main__text {
+    font-size: 30px;
+}
+.main__img {
+    padding: 80px 0 70px;
+}
+.project__item {
+    margin-bottom: 170px;
+}
+.project__title {
+    font-size: 41px;
+    font-weight: 700;
+    color: #d07a2d;
+    margin-bottom: 115px;
+}
+.project__name {
+    font-size: 32px;
+    font-weight: 700;
+}
+.project__size,
+.project__area {
+    font-size: 25px;
+}
+.project__price {
+    font-size: 25px;
+    color: #17753b;
+    margin-bottom: 30px;
+}
+.download {
+    background-color: #f1dfbc;
+    margin-bottom: 120px;
+    padding: 35px 0;
+}
+.download img {
+    display: block;
+    margin: 0 auto;
+}
+.download__link {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #17753b;
+    border: 6px solid #effd15;
+    padding: 30px 65px;
+}
+.gallery__title {
+    font-size: 41px;
+    font-weight: 700;
+    color: #d07a2d;
+    margin-bottom: 45px;
+}
+.gallery__text {
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.gallery__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery__inner img {
+    display: block;
+}
+.footer {
+    text-align: center;
+    padding: 50px 0 190px;
+}
+.footer .phone {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 90px;
+}
+.footer__email {
+    font-size: 30px;
+    color: #2f8bc5;
+    text-decoration: underline;
+}
